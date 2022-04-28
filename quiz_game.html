@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<Html>
+    <head>
+        <title>guess the word game</title>
+        <script src="quiz_game.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="quiz_game.css">
+    </head>
+    <body>
+      <h4 id="player1_name" ></h4> <span id="player1_score"></span>
+      <br>
+      <h4 id="player2_name" ></h4> <span id="player2_score"></span>
+      <div class="container">
+            <center>
+                    <h2 >The Math Quiz game!</h2>
+                    <br>
+                    <h4>Question Turn -</h4> <span id="question_turn"></span>
+                    <br>
+                    <h4 >Answer Turn -</h4> <span id="answer_turn"></span>
+                    <div id="output"></div>
+                    <label >Number 1</label>
+                    <br>
+                    <input type="number" class="form-control" placeholder="Number 1" id="number1">
+                                  <br>
+                    <label >Number 2</label>
+                    <br>
+                    <input type="number" class="form-control" placeholder="Number 2" id="number2">
+                    <br>
+                <button onclick="send()" >Send</button>
+            </center>
+        </div>
+    </body>
+</Html>

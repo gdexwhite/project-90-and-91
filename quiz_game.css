@@ -1,0 +1,30 @@
+body{
+    background: red;
+}
+h2{
+    font-size: 40px;
+    color: white;
+}
+h4{
+    font-size: 27;
+}
+button{
+    background-color: green;
+    color: white;
+    width: 60px;
+}
+center{
+    background: orange;
+    border-radius: 60%;
+}
+#output{
+    background:white ;
+    border-radius: 10px;
+    border-top: 10px solid #aa4465;
+    padding: 10px;
+    float:none;
+    text-align: left;
+}
+input{
+    display: inline-block;
+}
